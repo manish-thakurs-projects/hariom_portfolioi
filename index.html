@@ -34,8 +34,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="bg-gray-100 text-gray-900">
-  
+
   <nav class="w-full bg-white shadow fixed top-0 left-0 z-50 transition-colors duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
@@ -45,16 +46,20 @@
             <h1 style="font-size: large;">Hariom Sah</h1>
           </div>
         </a>
-        <div class="hidden md:flex space-x-8 items-center">
-          <a href="#" class="block py-2 text-lg font-medium nav-link menu-item-popup"
-            style="animation-delay: 0.1s; color: rgb(133, 133, 255);" >Home</a>
-          <a href="pages/about.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
-            style="animation-delay: 0.2s">About</a>
-          <a href="pages/skills.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+        <div class="hidden md:flex space-x-8 items-center ">
+          <a href="#" class="block py-2 text-lg font-medium nav-link menu-item-popup hover:text-blue-500 transition-all duration-300"
+            style="animation-delay: 0.1s; color: rgb(133, 133, 255); ">Home</a>
+        <a href="pages/about.html"
+   class="block py-2 text-lg font-medium nav-link menu-item-popup hover:text-blue-500 transition-all duration-300 hover:text-blue-500 transition-all duration-300"
+   style="animation-delay: 0.2s">
+   About
+</a>
+
+          <a href="pages/skills.html" class="block py-2 text-lg font-medium nav-link menu-item-popup hover:text-blue-500 transition-all duration-300 hover:text-blue-500 transition-all duration-300"
             style="animation-delay: 0.3s">Skills</a>
-          <a href="pages/projects.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+          <a href="pages/projects.html" class="block py-2 text-lg font-medium nav-link menu-item-popup hover:text-blue-500 transition-all duration-300 hover:text-blue-500 transition-all duration-300"
             style="animation-delay: 0.4s">Projects</a>
-          <a href="pages/contact.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+          <a href="pages/contact.html" class="block py-2 text-lg font-medium nav-link menu-item-popup hover:text-blue-500 transition-all duration-300 hover:text-blue-500 transition-all duration-300"
             style="animation-delay: 0.5s">Contact</a>
         </div>
         <button id="menu-toggle" class="md:hidden flex flex-col justify-between w-7 h-6 focus:outline-none"
@@ -67,14 +72,14 @@
     </div>
     <div id="mobile-menu"
       class="md:hidden bg-white shadow-lg py-4 px-6 hidden absolute w-full left-0 top-16 z-40 glass-effect flex flex-col items-center text-center transition-colors duration-300">
-      <a href="#" class="block py-2 text-lg font-medium nav-link menu-item-popup" style="animation-delay: 0.1s">Home</a>
-      <a href="pages/about.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+      <a href="#" class="block py-2 text-lg font-medium nav-link menu-item-popup hover:text-blue-500 transition-all duration-300" style="animation-delay: 0.1s">Home</a>
+      <a href="pages/about.html" class="block py-2 text-lg font-medium nav-link menu-item-popup hover:text-blue-500 transition-all duration-300"
         style="animation-delay: 0.2s">About</a>
-      <a href="pages/skills.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+      <a href="pages/skills.html" class="block py-2 text-lg font-medium nav-link menu-item-popup hover:text-blue-500 transition-all duration-300"
         style="animation-delay: 0.3s">Skills</a>
-      <a href="pages/projects.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+      <a href="pages/projects.html" class="block py-2 text-lg font-medium nav-link menu-item-popup hover:text-blue-500 transition-all duration-300"
         style="animation-delay: 0.4s">Projects</a>
-      <a href="pages/contact.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+      <a href="pages/contact.html" class="block py-2 text-lg font-medium nav-link menu-item-popup hover:text-blue-500 transition-all duration-300"
         style="animation-delay: 0.5s">Contact</a>
     </div>
   </nav>
@@ -111,6 +116,308 @@
         <a href="pages/contact.html" class="home-contact-btn">Contact Me</a>
       </div>
     </section>
+
+
+    <section id="about" class="py-12 md:py-20 fade-in max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="glass-effect p-8 rounded-3xl floating">
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-6 text-center drop-shadow-md">About Me</h2>
+        <p class="text-gray-700 leading-relaxed text-lg text-center max-w-3xl mx-auto">
+          I am a passionate full-stack developer and creative digital professional. With expertise spanning programming
+          languages like HTML, CSS, JavaScript, Python, Java, React, Node.js, PHP, and I build responsive,
+          user-friendly websites and applications. My skills also cover video & photo editing and digital marketing,
+          enabling me to deliver comprehensive digital experiences.
+        </p>
+
+        <!-- Image Gallery -->
+        <div class="image-gallery-container" style="overflow: hidden; width: 100%;">
+          <div class="image-gallery">
+            <img src="images/1.jpg" alt="Gallery Image 1">
+            <img src="images/2.jpg" alt="Gallery Image 2">
+            <img src="images/3.jpg" alt="Gallery Image 3">
+            <img src="images/4.jpg" alt="Gallery Image 4">
+            <img src="images/5.jpg" alt="Gallery Image 5">
+            <!-- Duplicate images for infinite loop -->
+            <img src="images/1.jpg" alt="Gallery Image 1">
+            <img src="images/2.jpg" alt="Gallery Image 2">
+            <img src="images/3.jpg" alt="Gallery Image 3">
+            <img src="images/4.jpg" alt="Gallery Image 4">
+            <img src="images/5.jpg" alt="Gallery Image 5">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section with floating cards -->
+    <section id="skills" class="py-12 md:py-20 fade-in max-w-6xl mx-auto px-4 sm:px-6">
+      <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-8 md:mb-10 text-center drop-shadow-md">Skills</h2>
+      <div
+        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 max-w-5xl mx-auto text-center text-gray-800">
+        <!-- HTML Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 0">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fab fa-html5 text-2xl sm:text-3xl text-red-600 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">HTML</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>3 years of experience building semantic, accessible HTML structures for modern web applications.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CSS Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 1">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fab fa-css3-alt text-2xl sm:text-3xl text-blue-600 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">CSS</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>Expert in CSS-3, Flexbox, Grid, and responsive design principles with 3 years of production experience.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 2">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fab fa-js-square text-2xl sm:text-3xl text-yellow-500 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">JavaScript</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>2 years building interactive web applications with modern ES6+ JavaScript and frameworks.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Python Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 3">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fab fa-python text-2xl sm:text-3xl text-blue-400 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">Python</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>1 years developing backend services and data processing scripts with Python.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Java Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 4">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fab fa-java text-2xl sm:text-3xl text-red-700 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">Java</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>1 years building enterprise applications with Java Spring Boot and Android mobile apps.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- React Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 5">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fab fa-react text-2xl sm:text-3xl text-cyan-400 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">React</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>3 months developing single-page applications with React, Redux, and Next.js frameworks.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Node.js Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 6">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fab fa-node-js text-2xl sm:text-3xl text-green-600 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">Node.js</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>6 months building RESTful APIs and server-side applications with Express.js and MongoDB.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PHP Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 7">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fab fa-php text-2xl sm:text-3xl text-indigo-600 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">PHP</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>2 years developing WordPress plugins and Laravel applications with MySQL databases.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video Editing Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 8">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fas fa-video text-2xl sm:text-3xl text-pink-500 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">Video Editing</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>2 years editing professional videos with Adobe Premiere Pro for clients being in Nepal.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo Editing Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 9">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fas fa-camera-retro text-2xl sm:text-3xl text-purple-600 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">Photo Editing</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>3 years experience with Photoshop and Lightroom for professional photo retouching and manipulation.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Digital Marketing Skill Card -->
+        <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 10">
+          <div class="skill-card-inner">
+            <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+              <i class="fas fa-bullhorn text-2xl sm:text-3xl text-yellow-600 mb-2 sm:mb-4"></i>
+              <h3 class="font-semibold text-base sm:text-xl mb-1">Digital Marketing</h3>
+            </div>
+            <div class="skill-card-back">
+              <p>6 months managing SEO, PPC campaigns, and social media strategies for diverse businesses.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section with fixed video -->
+    <section id="projects" class="py-12 md:py-20 fade-in max-w-7xl mx-auto px-4 sm:px-6">
+      <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-8 md:mb-10 text-center drop-shadow-md">Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-full mx-auto select-none">
+        <!-- Project 1 Image -->
+        <div
+          class="project-card bg-white rounded-2xl p-4 shadow-lg cursor-pointer transition transform hover:-translate-y-4 hover:shadow-2xl">
+          <img src="https://connectivewebdesign.com/wp-content/uploads/Solana-website.jpg" alt="Project 1"
+            class="rounded-xl w-full h-48 object-cover mb-4" />
+          <h3 class="text-lg md:text-xl font-semibold text-center">Modern Website</h3>
+        </div>
+        <!-- Project 2 Image -->
+        <div
+          class="project-card bg-white rounded-2xl p-4 shadow-lg cursor-pointer transition transform hover:-translate-y-4 hover:shadow-2xl">
+          <img
+            src="https://img.freepik.com/free-vector/gradient-dark-mode-app-template_52683-118063.jpg?semt=ais_hybrid&w=740"
+            alt="Project 3" class="rounded-xl w-full h-48 object-cover mb-4" />
+          <h3 class="text-lg md:text-xl font-semibold text-center">Mobile App UI</h3>
+        </div>
+        <!-- Project 3 Video - Fixed -->
+
+        <!-- Project 4 Image -->
+        <div
+          class="project-card bg-white rounded-2xl p-4 shadow-lg cursor-pointer transition transform hover:-translate-y-4 hover:shadow-2xl">
+          <img src="https://amateurphotographer.com/wp-content/uploads/sites/7/2020/12/pixlr-e-1024.jpg" alt="Project 1"
+            class="rounded-xl w-full h-48 object-cover mb-4" />
+          <h3 class="text-lg md:text-xl font-semibold text-center">Photo Editing</h3>
+        </div>
+        <div
+          class="project-card bg-white rounded-2xl p-4 shadow-lg cursor-pointer transition transform hover:-translate-y-4 hover:shadow-2xl overflow-hidden">
+          <div
+            style="border-radius: 10px; position: relative; padding-bottom:70%; height: 0; overflow: hidden; max-width: 100%;">
+            <iframe src="https://www.youtube.com/embed/8fO4S8iEua4"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 70%;" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <h3 class="text-lg md:text-xl font-semibold text-center">Video Project Demo</h3>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 md:py-20 fade-in max-w-4xl mx-auto px-4 sm:px-6">
+      <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-8 text-center drop-shadow-md">Contact Me</h2>
+
+      <div class="flex flex-col md:flex-row gap-8">
+        <!-- Contact Form -->
+        <div class="glass-effect p-6 md:p-8 rounded-3xl shadow-xl flex-1">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="glass-effect p-6 md:p-8 rounded-3xl shadow-xl flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl font-bold text-blue-800 dark:text-blue-400 mb-4">Get in Touch</h3>
+            <p class="text-gray-700 mb-6">
+              Feel free to reach out for collaborations or just to say hello! I'm always open to discussing new
+              projects, creative ideas or opportunities to be part of your visions.
+            </p>
+            <div class="space-y-4">
+              <div class="flex items-center">
+                <i class="fas fa-envelope text-blue-600 dark:text-blue-400 mr-3"></i>
+                <a href="mailto:hariomsah4274@gmail.com"
+                  class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition">hariomsah4274@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="mt-8">
+            <h4 class="text-lg font-semibold text-blue-800 mb-4">Connect with me</h4>
+            <div class="social-links">
+              <a href="https://www.instagram.com/mr_hi_dden_?igsh=YzB1Mmhzd2pwMGJ2 " target="_blank"
+                rel="noopener noreferrer" class="social-link instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/hidden.0001" target="_blank" rel="noopener noreferrer"
+                class="social-link facebook" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-link linkedin"
+                aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/h-a-r-i-o-m" target="_blank" rel="noopener noreferrer"
+                class="social-link github" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://wa.me/9744205853" target="_blank" rel="noopener noreferrer" class="social-link whatsapp"
+                aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
   </main>
 
   <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light theme">
