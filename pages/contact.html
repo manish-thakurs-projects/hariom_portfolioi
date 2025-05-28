@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Contact- Hariom Sah</title>
+    <meta name="title" content="Hariom Sah | Full-Stack Developer & Digital Creator">
+    <meta name="description"
+        content="Professional portfolio of Hariom Sah - Full-Stack Developer, Video Editor, Photo Editor, and Digital Marketer. Expertise in React, Node.js, Python, and creative digital solutions.">
+    <meta name="keywords"
+        content="web developer, full-stack developer, portfolio, video editor, photo editor, digital marketing, React, Node.js, Python, JavaScript">
+    <meta name="author" content="Hariom Sah">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https:///www.hariomsah.com.np">
+    <meta property="og:title" content="Hariom Sah | Full-Stack Developer & Digital Creator">
+    <meta property="og:description"
+        content="Professional portfolio of Hariom Sah - Full-Stack Developer, Video Editor, Photo Editor, and Digital Marketer.">
+    <meta property="og:image" content="https://yourwebsite.com/images/social-preview.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourwebsite.com/">
+    <meta property="twitter:title" content="Hariom Sah | Full-Stack Developer & Digital Creator">
+    <meta property="twitter:description"
+        content="Professional portfolio of Hariom Sah - Full-Stack Developer, Video Editor, Photo Editor, and Digital Marketer.">
+    <meta property="twitter:image" content="https://yourwebsite.com/images/social-preview.jpg">
+    <link rel="canonical" href="https://yourwebsite.com/" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    
+    <nav class="w-full bg-white shadow fixed top-0 left-0 z-50 transition-colors duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="/index.html" aria-label="Home" title="Go to Home section" class="flex-shrink-0 ">
+                    <div
+                        style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 20px;">
+                        <img src="/images/nav.jpg" alt="Hariom Sah"
+                            class="profile-img w-12 h-12 object-cover cursor-pointer" />
+                        <h1 style="font-size: large;">Hariom Sah</h1>
+                    </div>
+                </a>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="/index.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.1s">Home</a>
+                    <a href="/pages/about.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.2s">About</a>
+                    <a href="/pages/skills.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.3s">Skills</a>
+                    <a href="/pages/projects.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.4s">Projects</a>
+                    <a href="/pages/contact.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.5s; color: rgb(133, 133, 255);">Contact</a>
+                </div>
+                <button id="menu-toggle" class="md:hidden flex flex-col justify-between w-7 h-6 focus:outline-none"
+                    aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <span class="block h-1 w-full bg-blue-800 rounded-lg shadow-md transition-transform"></span>
+                    <span class="block h-1 w-full bg-blue-800 rounded-lg shadow-md transition-transform"></span>
+                    <span class="block h-1 w-full bg-blue-800 rounded-lg shadow-md transition-transform"></span>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu"
+            class="md:hidden bg-white shadow-lg py-4 px-6 hidden absolute w-full left-0 top-16 z-40 glass-effect flex flex-col items-center text-center transition-colors duration-300">
+            <a href="/index.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.1s">Home</a>
+            <a href="/pages/about.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.2s">About</a>
+            <a href="/pages/skills.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.3s">Skills</a>
+            <a href="/pages/projects.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.4s">Projects</a>
+            <a href="/pages/contact.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.5s">Contact</a>
+        </div>
+    </nav>
+    <div class="py-12 md:py-20 mt-16 fade-in max-w-4xl mx-auto px-4 sm:px-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-8 text-center drop-shadow-md">Contact Me</h2>
+        <div class="flex flex-col md:flex-row gap-8">
+            <div class="glass-effect p-6 md:p-8 rounded-3xl shadow-xl flex-1">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="glass-effect p-6 md:p-8 rounded-3xl shadow-xl flex-1 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-blue-800 dark:text-blue-400 mb-4">Get in Touch</h3>
+                    <p class="text-gray-700 mb-6">
+                        Feel free to reach out for collaborations or just to say hello! I'm always open to discussing
+                        new projects, creative ideas or opportunities to be part of your visions.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-blue-600 dark:text-blue-400 mr-3"></i>
+                            <a href="mailto:hariomsah4274@gmail.com"
+                                class="text-gray-700  hover:text-blue-600 dark:hover:text-blue-400 transition">hariomsah4274@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <h4 class="text-lg font-semibold text-blue-800 dark:text-blue-400 mb-4">Connect with me</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/mr_hi_dden_?igsh=YzB1Mmhzd2pwMGJ2 " target="_blank"
+                            rel="noopener noreferrer" class="social-link instagram" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/hidden.0001" target="_blank" rel="noopener noreferrer"
+                            class="social-link facebook" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                            class="social-link linkedin" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/h-a-r-i-o-m" target="_blank" rel="noopener noreferrer"
+                            class="social-link github" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://wa.me/9744205853" target="_blank" rel="noopener noreferrer"
+                            class="social-link whatsapp" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light theme">
+        <i class="fas fa-moon fa-lg"></i>
+    </button>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

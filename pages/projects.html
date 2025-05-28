@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Projects- Hariom Sah</title>
+    <meta name="title" content="Hariom Sah | Full-Stack Developer & Digital Creator">
+    <meta name="description"
+        content="Professional portfolio of Hariom Sah - Full-Stack Developer, Video Editor, Photo Editor, and Digital Marketer. Expertise in React, Node.js, Python, and creative digital solutions.">
+    <meta name="keywords"
+        content="web developer, full-stack developer, portfolio, video editor, photo editor, digital marketing, React, Node.js, Python, JavaScript">
+    <meta name="author" content="Hariom Sah">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https:///www.hariomsah.com.np">
+    <meta property="og:title" content="Hariom Sah | Full-Stack Developer & Digital Creator">
+    <meta property="og:description"
+        content="Professional portfolio of Hariom Sah - Full-Stack Developer, Video Editor, Photo Editor, and Digital Marketer.">
+    <meta property="og:image" content="https://yourwebsite.com/images/social-preview.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourwebsite.com/">
+    <meta property="twitter:title" content="Hariom Sah | Full-Stack Developer & Digital Creator">
+    <meta property="twitter:description"
+        content="Professional portfolio of Hariom Sah - Full-Stack Developer, Video Editor, Photo Editor, and Digital Marketer.">
+    <meta property="twitter:image" content="https://yourwebsite.com/images/social-preview.jpg">
+    <link rel="canonical" href="https://yourwebsite.com/" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    
+    <nav class="w-full bg-white shadow fixed top-0 left-0 z-50 transition-colors duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="/index.html" aria-label="Home" title="Go to Home section" class="flex-shrink-0 ">
+                    <div
+                        style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 20px;">
+                        <img src="/images/nav.jpg" alt="Hariom Sah"
+                            class="profile-img w-12 h-12 object-cover cursor-pointer" />
+                        <h1 style="font-size: large;">Hariom Sah</h1>
+                    </div>
+                </a>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="/index.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.1s">Home</a>
+                    <a href="/pages/about.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.2s">About</a>
+                    <a href="/pages/skills.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.3s">Skills</a>
+                    <a href="/pages/projects.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.4s; color: rgb(133, 133, 255);">Projects</a>
+                    <a href="/pages/contact.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.5s">Contact</a>
+                </div>
+                <button id="menu-toggle" class="md:hidden flex flex-col justify-between w-7 h-6 focus:outline-none"
+                    aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <span class="block h-1 w-full bg-blue-800 rounded-lg shadow-md transition-transform"></span>
+                    <span class="block h-1 w-full bg-blue-800 rounded-lg shadow-md transition-transform"></span>
+                    <span class="block h-1 w-full bg-blue-800 rounded-lg shadow-md transition-transform"></span>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu"
+            class="md:hidden bg-white shadow-lg py-4 px-6 hidden absolute w-full left-0 top-16 z-40 glass-effect flex flex-col items-center text-center transition-colors duration-300">
+            <a href="/index.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.1s">Home</a>
+            <a href="/pages/about.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.2s">About</a>
+            <a href="/pages/skills.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.3s">Skills</a>
+            <a href="/pages/projects.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.4s">Projects</a>
+            <a href="/pages/contact.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.5s">Contact</a>
+        </div>
+    </nav>
+    <div class="py-12 md:py-20 mt-16 fade-in max-w-4xl mx-auto px-4 sm:px-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-8 md:mb-10 text-center drop-shadow-md">Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-full mx-auto select-none">
+            <div
+                class="project-card bg-white rounded-2xl p-4 shadow-lg cursor-pointer transition transform hover:-translate-y-4 hover:shadow-2xl">
+                <img src="https://connectivewebdesign.com/wp-content/uploads/Solana-website.jpg" alt="Project 1"
+                    class="rounded-xl w-full h-48 object-cover mb-4" />
+                <h3 class="text-lg md:text-xl font-semibold text-center">Modern Website</h3>
+            </div>
+            <div
+                class="project-card bg-white rounded-2xl p-4 shadow-lg cursor-pointer transition transform hover:-translate-y-4 hover:shadow-2xl">
+                <img src="https://img.freepik.com/free-vector/gradient-dark-mode-app-template_52683-118063.jpg?semt=ais_hybrid&w=740"
+                    alt="Project 3" class="rounded-xl w-full h-48 object-cover mb-4" />
+                <h3 class="text-lg md:text-xl font-semibold text-center">Mobile App UI</h3>
+            </div>
+
+            <div
+                class="project-card bg-white rounded-2xl p-4 shadow-lg cursor-pointer transition transform hover:-translate-y-4 hover:shadow-2xl">
+                <img src="https://amateurphotographer.com/wp-content/uploads/sites/7/2020/12/pixlr-e-1024.jpg"
+                    alt="Project 1" class="rounded-xl w-full h-48 object-cover mb-4" />
+                <h3 class="text-lg md:text-xl font-semibold text-center">Photo Editing</h3>
+            </div>
+            <div
+                class="project-card bg-white rounded-2xl p-4 shadow-lg cursor-pointer transition transform hover:-translate-y-4 hover:shadow-2xl overflow-hidden">
+                <div
+                    style="border-radius: 10px; position: relative; padding-bottom:100%; height: 0; overflow: hidden; max-width: 100%;">
+                    <iframe src="https://www.youtube.com/embed/8fO4S8iEua4"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 80%;" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+
+                <h3 class="text-lg md:text-xl font-semibold text-center">Video Project Demo</h3>
+            </div>
+        </div>
+    </div>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light theme">
+        <i class="fas fa-moon fa-lg"></i>
+    </button>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

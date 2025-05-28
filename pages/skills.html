@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Skills- Hariom Sah</title>
+    <meta name="title" content="Hariom Sah | Full-Stack Developer & Digital Creator">
+    <meta name="description"
+        content="Professional portfolio of Hariom Sah - Full-Stack Developer, Video Editor, Photo Editor, and Digital Marketer. Expertise in React, Node.js, Python, and creative digital solutions.">
+    <meta name="keywords"
+        content="web developer, full-stack developer, portfolio, video editor, photo editor, digital marketing, React, Node.js, Python, JavaScript">
+    <meta name="author" content="Hariom Sah">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https:///www.hariomsah.com.np">
+    <meta property="og:title" content="Hariom Sah | Full-Stack Developer & Digital Creator">
+    <meta property="og:description"
+        content="Professional portfolio of Hariom Sah - Full-Stack Developer, Video Editor, Photo Editor, and Digital Marketer.">
+    <meta property="og:image" content="https://yourwebsite.com/images/social-preview.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourwebsite.com/">
+    <meta property="twitter:title" content="Hariom Sah | Full-Stack Developer & Digital Creator">
+    <meta property="twitter:description"
+        content="Professional portfolio of Hariom Sah - Full-Stack Developer, Video Editor, Photo Editor, and Digital Marketer.">
+    <meta property="twitter:image" content="https://yourwebsite.com/images/social-preview.jpg">
+
+    <link rel="canonical" href="https://yourwebsite.com/" />
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    
+    <nav class="w-full bg-white shadow fixed top-0 left-0 z-50 transition-colors duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Profile Image Left as a clickable -->
+                <a href="/index.html" aria-label="Home" title="Go to Home section" class="flex-shrink-0 ">
+                    <div
+                        style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 20px;">
+                        <img src="/images/nav.jpg" alt="Hariom Sah"
+                            class="profile-img w-12 h-12 object-cover cursor-pointer" />
+                        <h1 style="font-size: large;">Hariom Sah</h1>
+
+
+                    </div>
+                </a>
+                <!-- Nav Links Right for desktop -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="/index.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.1s">Home</a>
+                    <a href="/pages/about.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.2s">About</a>
+                    <a href="/pages/skills.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.3s; color: rgb(133, 133, 255);">Skills</a>
+                    <a href="/pages/projects.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.4s">Projects</a>
+                    <a href="/pages/contact.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                        style="animation-delay: 0.5s">Contact</a>
+                </div>
+                <!-- Hamburger Menu for mobile -->
+                <button id="menu-toggle" class="md:hidden flex flex-col justify-between w-7 h-6 focus:outline-none"
+                    aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <span class="block h-1 w-full bg-blue-800 rounded-lg shadow-md transition-transform"></span>
+                    <span class="block h-1 w-full bg-blue-800 rounded-lg shadow-md transition-transform"></span>
+                    <span class="block h-1 w-full bg-blue-800 rounded-lg shadow-md transition-transform"></span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="md:hidden bg-white shadow-lg py-4 px-6 hidden absolute w-full left-0 top-16 z-40 glass-effect flex flex-col items-center text-center transition-colors duration-300">
+            <a href="/index.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.1s">Home</a>
+            <a href="/pages/about.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.2s">About</a>
+            <a href="/pages/skills.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.3s">Skills</a>
+            <a href="/pages/projects.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.4s">Projects</a>
+            <a href="/pages/contact.html" class="block py-2 text-lg font-medium nav-link menu-item-popup"
+                style="animation-delay: 0.5s">Contact</a>
+        </div>
+    </nav>
+    <div class="py-12 md:py-20 mt-16 fade-in max-w-4xl mx-auto px-4 sm:px-6">
+
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-8 md:mb-10 text-center drop-shadow-md">Skills</h2>
+        <div
+            class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 max-w-5xl mx-auto text-center text-gray-800">
+            <!-- HTML Skill Card -->
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 0">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fab fa-html5 text-2xl sm:text-3xl text-red-600 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">HTML</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>3 years of experience building semantic, accessible HTML structures for modern web
+                            applications.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 1">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fab fa-css3-alt text-2xl sm:text-3xl text-blue-600 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">CSS</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>Expert in CSS-3, Flexbox, Grid, and responsive design principles with 3 years of production
+                            experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 2">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fab fa-js-square text-2xl sm:text-3xl text-yellow-500 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">JavaScript</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>2 years building interactive web applications with modern ES6+ JavaScript and frameworks.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 3">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fab fa-python text-2xl sm:text-3xl text-blue-400 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">Python</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>1 years developing backend services and data processing scripts with Python.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Java Skill Card -->
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 4">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fab fa-java text-2xl sm:text-3xl text-red-700 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">Java</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>1 years building enterprise applications with Java Spring Boot and Android mobile apps.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- React Skill Card -->
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 5">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fab fa-react text-2xl sm:text-3xl text-cyan-400 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">React</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>3 months developing single-page applications with React, Redux, and Next.js frameworks.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Node.js Skill Card -->
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 6">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fab fa-node-js text-2xl sm:text-3xl text-green-600 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">Node.js</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>6 months building RESTful APIs and server-side applications with Express.js and MongoDB.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHP Skill Card -->
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 7">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fab fa-php text-2xl sm:text-3xl text-indigo-600 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">PHP</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>2 years developing WordPress plugins and Laravel applications with MySQL databases.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Editing Skill Card -->
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 8">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fas fa-video text-2xl sm:text-3xl text-pink-500 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">Video Editing</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>2 years editing professional videos with Adobe Premiere Pro for clients being in Nepal.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Photo Editing Skill Card -->
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 9">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fas fa-camera-retro text-2xl sm:text-3xl text-purple-600 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">Photo Editing</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>3 years experience with Photoshop and Lightroom for professional photo retouching and
+                            manipulation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Digital Marketing Skill Card -->
+            <div class="skill-card" onclick="toggleSkillCard(this)" style="--delay: 10">
+                <div class="skill-card-inner">
+                    <div class="skill-card-front glass-effect p-4 sm:p-6 rounded-3xl shadow-lg">
+                        <i class="fas fa-bullhorn text-2xl sm:text-3xl text-yellow-600 mb-2 sm:mb-4"></i>
+                        <h3 class="font-semibold text-base sm:text-xl mb-1">Digital Marketing</h3>
+                    </div>
+                    <div class="skill-card-back">
+                        <p>6 months managing SEO, PPC campaigns, and social media strategies for diverse businesses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light theme">
+        <i class="fas fa-moon fa-lg"></i>
+    </button>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
