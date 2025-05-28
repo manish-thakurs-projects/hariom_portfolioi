@@ -86,7 +86,7 @@ h3 {
   background-color: #2563eb;
 }
 
-/* Mobile menu with transparency and blur */
+
 #mobile-menu {
   display: none;
   flex-direction: column;
